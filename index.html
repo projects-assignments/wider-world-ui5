@@ -10,86 +10,142 @@
     <meta name="robots" content="index, foolow">
     <link rel="icon" type="image/jpg" href="./assets/favicon-rocket.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Changa:wght@200;400;600;800&family=Inter:wght@300;400;600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header id="myHeader">
-        <a href="./index.html" class="active">Home</a>
-        <div class="dropdown">
-            <button class="dropbtn">Trips
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <div class="sub-dropdown">
-                    <button class="sub-dropbtn">To Space
-                        <i class="fa fa-caret-down"></i>
+    <section id="hero-section">
+        <header>
+            <img id="logo-header" src="/assets/logo.png" alt="Logo de Wider Space">
+            <nav id="myNav">
+                <a href="./index.html" class="active">HOME</a>
+                <div class="dropdown">
+                    <button class="dropbtn">TRIPS
                     </button>
-                    <div class="sub-dropdown-content">
-                        <a href="#">Planets & Satellites</a>
-                        <a href="#">Wormholes</a>
-                        <a href="#">Quantum & Temporal</a>
-                        <a href="#">Alien Nature</a>
-                        <a href="#">View all</a>                       
+                    <div class="dropdown-content">
+                        <div class="sub-dropdown">
+                            <button class="sub-dropbtn">To Space
+                            </button>
+                            <div class="sub-dropdown-content">
+                                <a href="#">Planets & Satellites</a>
+                                <a href="#">Wormholes</a>
+                                <a href="#">Quantum & Temporal</a>
+                                <a href="#">Alien Nature</a>
+                                <a href="#">View all</a>
+                            </div>
+                        </div>
+                        <div class="sub-dropdown">
+                            <button class="sub-dropbtn">To Earth
+                            </button>
+                            <div class="sub-dropdown-content">
+                                <a href="#">Cueva de Los Tayos</a>
+                                <a href="#">Machu Picchu</a>
+                                <a href="#">Cueva Galápagos</a>
+                                <a href="#">Antelope Canyon</a>
+                                <a href="#">Santorini</a>
+                                <a href="#">View all</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="sub-dropdown">
-                    <button class="sub-dropbtn">To Earth
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="sub-dropdown-content">
-                        <a href="#">Cueva de Los Tayos</a>
-                        <a href="#">Machu Picchu</a>
-                        <a href="#">Cueva Galápagos</a>
-                        <a href="#">Antelope Canyon</a>
-                        <a href="#">Santorini</a>
-                        <a href="#">View all</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a href="./your-space.html">Your Space</a>
-        <a href="./rules-and-conditions.html">Rules & Conditions</a>
-        <a href="./about-us.html">About us</a>
-        <a href="./contact.html">Contact</a>
-        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-    </header>
+                <!-- <a href="./your-space.html">YOUR SPACE</a> -->
+                <!-- <a href="./rules-and-conditions.html">RULES&CONDITIONS</a> -->
+                <a href="./about.html">ABOUT</a>
+                <a href="./contact.html">CONTACT</a>
+                
+                <!-- menú hamburguesa -->
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                <!-- menú hamburguesa -->
 
-    <main>
-        <h1>HOME</h1>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    </main>
-<footer>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-</footer>
-    
+            </nav>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <i class="bi bi-search"></i>
+            </div>
+            <div class="login">
+                <img src="/assets/login-vector.png" alt="logo de login">
+                <h6 class="hidden">Login</h6>
+            </div>
+        </header>
+        <article class="text-hero">
+            <h1>Adventure on <br> Jupiter’s Moon!</h1>
+            <div class="text-order-article">
+                <p class="hero-paragraf-500">The best views on the marble planet satellite</p>
+                <p class="hero-paragraf-700"><b>Next Trip November 30Th</b></p>
+            </div>
+            <div class="btn-hero-group">
+                <button class="hero-button">Book</button>
+                <button class="hero-button">More</button>
+            </div>
+        </article>
+    </section>
+    <div class="separator"></div>
+    <section class="galery-1">
+        <article class="galery-items">
+            <h2>Mars Exploration</h2>
+            <div class="text-order-article">
+                <p>Follow the footsteps of Curiosity, chill in a Mars oasis, live with locals as a real Martian and a
+                    lot more of Martian Fun!</p>
+                <p>4 weeks <br> From 500.000 $</p>
+            </div>
+            <div class="slider-galery">
+                <img src="/assets/galeria-1-foto-1-1.png" alt="">
+                <img src="/assets/galeria-1-foto-2-1.png" alt="">
+                <img src="/assets/galeria-1-foto-3-1.png" alt="">
+                <img src="/assets/galeria-1-foto-4-1.png" alt="">
+            </div>
+            <div class="btn-hero-group">
+                <button class="galery-button">Book</button>
+                <button class="galery-button">More</button>
+            </div>
+        </article>
+    </section>
+
+    <div class="separator"></div>
+
+    <section class="galery-2">
+        <article class="galery-items">
+            <h2>Trip to inhabited Exoplanet</h2>
+            <div class="text-order-article">
+                <p>Feel like Neil Armstrong the first time he walked on the Moon! Exploring an inhabited exoplanet is a
+                    unique experience you’ll never forget. </p>
+                <p>6 weeks <br> From 800.000 $</p>
+            </div>
+            <div class="slider-galery">
+                <img src="/assets/image-5.png" alt="">
+                <img src="/assets/image-2.png" alt="">
+                <img src="/assets/image-3.png" alt="">
+                <img src="/assets/image-8.png" alt="">
+            </div>
+            <div class="btn-hero-group">
+                <button class="galery-button">Book</button>
+                <button class="galery-button">More</button>
+            </div>
+        </article>
+    </section>
+    <div class="separator"></div>
+
+    <footer>
+        <div class="order-footer">
+            <p>About us</p>
+            <p>Contact us</p>
+            <p>Webpage developped by UI-5</p>
+        </div>
+        <div class="order-footer">
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p>Cookie management</p>
+        </div>
+    </footer>
+
     <!-- Javascript init-->
     <script src="index.js"></script>
     <!-- Javascript end-->
 </body>
 
 </html>
-<!-- 
-    <section class="hero">
-        <div class="gris">
-            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-        </div>
-        <div class="gris">
-        </div>
-    </section>
-    <section class="destacado1">Destacado 1</section>
-    <section class="destacado2">Destacado 2</section>
-    <footer class="footer">Footer</footer> -->

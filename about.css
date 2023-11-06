@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/background-about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+footer {
+    background-color: blue;
+    font-family: "poppins";
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 10px;
+    font-size: 12px;
+    padding-top: 50px;
+    height: 200px;
+    width: 100%;
+}
+.order-footer {
+    width: 20%;
+}
